@@ -10,7 +10,7 @@ pool:
   vmImage: 'windows-latest'
   name: default
   demands:
-   -agent.name -equals:DESKTOP-FJEKJE9
+   -agent.name -equals DESKTOP-FJEKJE9
 
 variables:
   solution: '**/*.sln'
